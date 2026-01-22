@@ -242,6 +242,23 @@ article#video .video-container {
 
 }
 
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: var(--destaque-inverso);
+}
+
 @media screen and (min-width: 768px) {
     #skill-container{
       grid-template-columns: 1fr 1fr;
