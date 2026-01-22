@@ -42,6 +42,7 @@ body{
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 header{
@@ -54,6 +55,7 @@ header{
   position: sticky;
   top: 0;
   z-index: 1;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 nav#menu ul{
@@ -68,7 +70,7 @@ nav#menu a {
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
-  transition: background-color .4s, color .4s;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 nav#menu a:hover{
@@ -88,7 +90,7 @@ section#ficha{
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
-  
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 section#ficha img.foto{
@@ -107,6 +109,7 @@ section#ficha h1{
   margin: 15px 0px;
   font-size: 1.5em;
   text-align: left;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 section#ficha p{
@@ -120,11 +123,13 @@ div#social{
   font-size: 1.6em;
   gap: 1em;
   margin-top: 15px;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 div#social a {
   color: var(--destaque);
   transition: color .5s;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 div#social a:hover{
@@ -140,11 +145,13 @@ article{
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 article h2 {
   color: var(--destaque);
   margin-bottom: 20px;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 article#video .video-container {
@@ -179,11 +186,13 @@ article#video .video-container {
   font-weight: bold;
   color: var(--texto);
   /* border: 2px solid black; */
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #skill-container .porcent{
   font-weight: bold;
   color: var(--destaque);
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #skill-container .barra{
@@ -191,12 +200,14 @@ article#video .video-container {
   height: 8px;
   background-color: var(--fundo-principal);
   border-radius: 4px;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #skill-container .progresso{
   height: 100%;
   background-color: var(--destaque-inverso);
   border-radius: 4px;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #formacao-container{
@@ -211,6 +222,7 @@ article#video .video-container {
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 8px;
   transition: border-color .4s, border-width .3s;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #formacao-container .curso:hover{
@@ -223,11 +235,13 @@ article#video .video-container {
   font-size: 0.8em;
   font-weight: bold;
   color: var(--texto);
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #formacao-container .instituicao{
   color: var(--destaque-inverso);
   font-size: 1.3em;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #projeto-container{
@@ -245,6 +259,7 @@ article#video .video-container {
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   transition: border-color .4s, border-width .3s;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 #projeto-container .projeto:hover{
@@ -267,12 +282,14 @@ footer {
   color: var(--texto-inverso);
   padding: 10px;
   text-align: center;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 footer a {
   text-decoration: none;
   color: var(--texto-inverso);
   font-weight: bold;
+  transition: background-color .5s, color .5s; /*Transição do modo claro para escuro*/
 }
 
 footer a:hover{
